@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Rincón de Abi: Capítulo II</title>
-
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎀</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Pacifico&display=swap"
@@ -165,12 +166,10 @@
             </div>
             <div class="md:w-1/2 w-full transform -rotate-1 hover:rotate-0 transition duration-500">
                 <div class="aspect-video rounded-3xl overflow-hidden shadow-xl bg-white/50 p-2">
-                    <iframe class="w-full h-full rounded-2xl"
-                        src="https://www.youtube.com/embed/SUL79zqyYwM?si=PLhLWAM_V1M2TVfH" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
+                    <video class="w-full h-full rounded-2xl object-cover" controls>
+                        <source src="Count On Me - Bruno Mars (Traducida al Español).mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
                 </div>
             </div>
         </div>
@@ -184,12 +183,10 @@
             </div>
             <div class="md:w-1/2 w-full transform rotate-2 hover:rotate-0 transition duration-500">
                 <div class="aspect-video rounded-3xl overflow-hidden shadow-xl bg-white/50 p-2">
-                    <iframe class="w-full h-full rounded-2xl"
-                        src="https://www.youtube.com/embed/GeNP6OYVc4Q?si=wR2096KeUM5xr-RK" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
+                    <video class="w-full h-full rounded-2xl object-cover" controls>
+                        <source src="23 - Morat (letra).mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
                 </div>
             </div>
         </div>
@@ -214,30 +211,33 @@
         <div class="flex flex-wrap justify-center gap-8 md:gap-12">
             <div
                 class="w-64 h-64 rounded-full bg-gradient-to-br from-white to-rose-50 shadow-lg flex flex-col items-center justify-center p-6 text-center transform hover:scale-105 transition duration-300 border border-white">
-                <span class="text-4xl mb-2">🌱</span>
-                <h3 class="font-bold text-rose-500 mb-2">Resiliencia</h3>
-                <p class="text-sm text-gray-500">Floreces incluso en invierno.</p>
+                <h3 class="font-bold text-rose-500 mb-2">La fuerza del silencio</h3>
+                <p class="text-sm text-gray-500">Me enseñaste que no hace falta hacer ruido para ser la persona más
+                    valiente del lugar.</p>
             </div>
 
             <div
                 class="w-64 h-64 rounded-full bg-gradient-to-br from-white to-sky-50 shadow-lg flex flex-col items-center justify-center p-6 text-center transform hover:scale-105 transition duration-300 border border-white md:mt-12">
-                <span class="text-4xl mb-2">⚓</span>
-                <h3 class="font-bold text-sky-500 mb-2">Lealtad</h3>
-                <p class="text-sm text-gray-500">Estás ahí, firme, pase lo que pase.</p>
+
+                <h3 class="font-bold text-sky-500 mb-2">El valor de la permanencia</h3>
+                <p class="text-sm text-gray-500">Me demostraste que la lealtad real no es estar solo en la calma, sino
+                    quedarse durante la tormenta.</p>
             </div>
 
             <div
                 class="w-64 h-64 rounded-full bg-gradient-to-br from-white to-gold-50 shadow-lg flex flex-col items-center justify-center p-6 text-center transform hover:scale-105 transition duration-300 border border-white">
-                <span class="text-4xl mb-2">✨</span>
-                <h3 class="font-bold text-yellow-600 mb-2">Luz Propia</h3>
-                <p class="text-sm text-gray-500">No necesitas apagar a nadie para brillar.</p>
+
+                <h3 class="font-bold text-yellow-600 mb-2">A nunca rendirse</h3>
+                <p class="text-sm text-gray-500">Me encanta cómo siempre sigues adelante, sin rendirte nunca, ni conmigo
+                    ni con nada.</p>
             </div>
 
             <div
                 class="w-64 h-64 rounded-full bg-gradient-to-br from-white to-purple-50 shadow-lg flex flex-col items-center justify-center p-6 text-center transform hover:scale-105 transition duration-300 border border-white md:mt-12">
-                <span class="text-4xl mb-2">🦋</span>
-                <h3 class="font-bold text-purple-500 mb-2">Metamorfosis</h3>
-                <p class="text-sm text-gray-500">Tu capacidad de cambio es admirable.</p>
+
+                <h3 class="font-bold text-purple-500 mb-2">A reconstruir</h3>
+                <p class="text-sm text-gray-500">Ver cómo te levantas me enseñó que siempre, absolutamente siempre, se
+                    puede volver a empezar.</p>
             </div>
         </div>
     </section>
@@ -247,16 +247,18 @@
             <span class="font-title text-2xl text-gray-400">Abi en palabras clave</span>
         </div>
         <div class="max-w-4xl mx-auto px-6 text-center leading-loose">
-            <span class="floating-word text-4xl sm:text-6xl font-bold text-rose-300 mx-4 cursor-default">Magia</span>
+            <span
+                class="floating-word text-4xl sm:text-6xl font-bold text-rose-300 mx-4 cursor-default">Asombrosa</span>
             <span class="floating-word text-2xl sm:text-4xl font-bold text-sky-300 mx-4 cursor-default">Paz</span>
             <span
-                class="floating-word text-5xl sm:text-7xl font-title text-purple-300 mx-4 cursor-default">Coraje</span>
-            <span class="floating-word text-3xl sm:text-5xl font-bold text-gold-300 mx-4 cursor-default">Hogar</span>
-            <span class="floating-word text-4xl sm:text-6xl font-title text-rose-400 mx-4 cursor-default">Risa</span>
+                class="floating-word text-5xl sm:text-7xl font-title text-purple-300 mx-4 cursor-default">Valentía</span>
+            <span class="floating-word text-3xl sm:text-5xl font-bold text-gold-300 mx-4 cursor-default">Linda</span>
+            <span
+                class="floating-word text-4xl sm:text-6xl font-title text-rose-400 mx-4 cursor-default">Maravillosa</span>
             <span
                 class="floating-word text-2xl sm:text-4xl font-bold text-mint-400 mx-4 cursor-default">Sinceridad</span>
             <span
-                class="floating-word text-5xl sm:text-7xl font-bold text-gray-300 mx-4 cursor-default opacity-50">Arte</span>
+                class="floating-word text-5xl sm:text-7xl font-bold text-gray-300 mx-4 cursor-default opacity-50">Humilde</span>
         </div>
     </section>
 
@@ -266,7 +268,7 @@
             <div class="absolute -left-10 top-0 text-9xl text-rose-100 opacity-50 font-title -z-10 rotate-12">Yo</div>
 
             <h2 class="text-3xl font-bold text-gray-700 mb-8 border-l-4 border-rose-300 pl-4">Lo que aprendí sobre mí
-                <br><span class="text-rose-400 font-title font-normal text-2xl">gracias a vos</span>
+                <br><span class="text-rose-400 font-title font-normal text-2xl">gracias a tí</span>
             </h2>
 
             <div class="space-y-6 ml-4 md:ml-10">
@@ -285,50 +287,92 @@
                     <p class="text-lg text-gray-600 border-b border-rose-100 pb-2 w-full">Me enseñaste a querer partes
                         de mí que yo escondía.</p>
                 </div>
+                <div class="flex items-start group">
+                    <span class="text-2xl mr-4 group-hover:scale-125 transition">💖</span>
+                    <p class="text-lg text-gray-600 border-b border-rose-100 pb-2 w-full">Contigo aprendí que incluso en
+                        los días más oscuros, siempre hay luz esperando al final.</p>
+                </div>
             </div>
         </section>
 
         <section class="reveal">
-            <h2 class="text-center font-title text-3xl text-gray-700 mb-10">Me alegra haberte conocido porque...</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <h2 class="text-center font-title text-3xl text-gray-700 mb-12">Me alegra haberte conocido porque...</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
                 <div
-                    class="bg-yellow-50 p-6 shadow-md transform -rotate-1 hover:rotate-0 transition duration-300 relative">
+                    class="bg-yellow-50 p-8 shadow-md transform -rotate-1 hover:rotate-0 transition duration-300 relative rounded-xl">
                     <div class="absolute -top-3 left-1/2 w-4 h-12 bg-yellow-200/50 -translate-x-1/2"></div>
-                    <p class="font-handwriting text-gray-700 text-lg">"Haces que los días grises tengan color."</p>
+                    <p class="font-handwriting text-gray-700 text-lg leading-relaxed">
+                        "Porque tienes esa capacidad mágica de transformar la atmósfera. Incluso en mis días más
+                        pesados, tu presencia logra que todo se sienta un poco más ligero, cálido y lleno de color."
+                    </p>
                 </div>
+
                 <div
-                    class="bg-blue-50 p-6 shadow-md transform rotate-2 hover:rotate-0 transition duration-300 relative">
+                    class="bg-blue-50 p-8 shadow-md transform rotate-1 hover:rotate-0 transition duration-300 relative rounded-xl">
                     <div class="absolute -top-3 left-1/2 w-4 h-12 bg-blue-200/50 -translate-x-1/2"></div>
-                    <p class="font-handwriting text-gray-700 text-lg">"Escuchas con el corazón, no solo con los oídos."
+                    <p class="font-handwriting text-gray-700 text-lg leading-relaxed">
+                        "Porque tienes una empatía que ya casi no se encuentra. Cuando hablo contigo, no solo escuchas
+                        mis palabras, sino que abrazas lo que siento sin juzgarme, haciéndome sentir en casa."
                     </p>
                 </div>
+
                 <div
-                    class="bg-rose-50 p-6 shadow-md transform -rotate-2 hover:rotate-0 transition duration-300 relative">
+                    class="bg-rose-50 p-8 shadow-md transform -rotate-1 hover:rotate-0 transition duration-300 relative rounded-xl">
                     <div class="absolute -top-3 left-1/2 w-4 h-12 bg-rose-200/50 -translate-x-1/2"></div>
-                    <p class="font-handwriting text-gray-700 text-lg">"Tu perspectiva del mundo siempre me abre la
-                        mente."</p>
-                </div>
-                <div
-                    class="bg-purple-50 p-6 shadow-md transform rotate-1 hover:rotate-0 transition duration-300 relative">
-                    <div class="absolute -top-3 left-1/2 w-4 h-12 bg-purple-200/50 -translate-x-1/2"></div>
-                    <p class="font-handwriting text-gray-700 text-lg">"Simplemente, el mundo es mejor con vos en él."
+                    <p class="font-handwriting text-gray-700 text-lg leading-relaxed">
+                        "Porque posees una valentía inquebrantable. He visto cómo la vida te ha puesto pruebas
+                        difíciles, y admiro profundamente que, a pesar de todo, nunca te rindes. Tu capacidad para
+                        levantarte, sacudirte el polvo y seguir avanzando es mi mayor inspiración."
                     </p>
                 </div>
+
+                <div
+                    class="bg-purple-50 p-8 shadow-md transform rotate-1 hover:rotate-0 transition duration-300 relative rounded-xl">
+                    <div class="absolute -top-3 left-1/2 w-4 h-12 bg-purple-200/50 -translate-x-1/2"></div>
+                    <p class="font-handwriting text-gray-700 text-lg leading-relaxed">
+                        "Porque, en un mundo que a veces parece caótico, tú eres una certeza bonita. La vida simplemente
+                        tiene más sentido, más risa y más paz cuando tú estás cerca."
+                    </p>
+                </div>
+
             </div>
         </section>
 
         <section class="reveal text-center py-10">
-            <h2 class="font-title text-2xl text-gray-400 mb-6">Lo que te hace única</h2>
-            <div class="space-y-4">
+            <h2 class="font-title text-2xl text-gray-400 mb-8">Lo que te hace única</h2>
+
+            <div class="space-y-6">
                 <p
-                    class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-orange-300 hover:tracking-widest transition-all duration-500 cursor-default">
-                    Tu empatía infinita.</p>
+                    class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-red-400 hover:tracking-widest transition-all duration-500 cursor-default">
+                    Tu valentía asombrosa.
+                </p>
+
                 <p
-                    class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-300 hover:tracking-widest transition-all duration-500 cursor-default">
-                    Esa risa sanadora.</p>
+                    class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400 hover:tracking-widest transition-all duration-500 cursor-default">
+                    Tu inteligencia brillante.
+                </p>
+
                 <p
-                    class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-300 hover:tracking-widest transition-all duration-500 cursor-default">
-                    Tu alma guerrera.</p>
+                    class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-400 hover:tracking-widest transition-all duration-500 cursor-default">
+                    Tu humildad y gentileza.
+                </p>
+
+                <p
+                    class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400 hover:tracking-widest transition-all duration-500 cursor-default">
+                    Esa chispa que me hace reír.
+                </p>
+
+                <p
+                    class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-rose-300 hover:tracking-widest transition-all duration-500 cursor-default">
+                    Tu inmensa bondad.
+                </p>
+
+                <p
+                    class="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 hover:tracking-widest transition-all duration-500 cursor-default">
+                    La mujer maravillosa que ya eres.
+                </p>
+
             </div>
         </section>
 
